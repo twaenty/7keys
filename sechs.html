@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Schlüssel für Avery [6]</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        a { text-decoration: none; }
+    </style>
+</head>
+
+<body>
+    <div class="indexcontentalt">
+        <h1 align="center">6</h1>
+        <br>
+        <p align="center">Das Rubbellos verbirgt so manche Tücken</p>
+        <p align="center">Die Sphinx will euren Weg verschärfen</p>
+        <p align="center">Rot das Gesicht und grau der Rücken</p>
+        <p align="center">Selbst Ödipus würde das Handtuch werfen</p>
+        <br>
+        <form>
+            <input name="key" id="key" type="text" placeholder="Schlüssel 6" required>
+            <input type="submit" value="Prüfen" onclick="auth()" style="display: none;">
+        </form>
+        <br><br>
+    </div>
+    <script>
+        function auth(){
+            var key = document.getElementById("key").value;
+            if(key == "Uhr"){
+                window.location.assign("sieben.html");
+                alert("Die Zeit rennt, Leute!");
+            }
+            else{
+                alert("Mmmmh, Frühstück für die Sphinx.")
+                return;
+            }
+        }
+    </script>
+</body>
+
+</html>

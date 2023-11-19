@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Schlüssel für Avery [5]</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        a { text-decoration: none; }
+    </style>
+</head>
+
+<body>
+    <div class="indexcontent">
+        <h1 align="center">5</h1>
+        <br>
+        <p align="center">Gibt das Leben dir Zitronen</p>
+        <p align="center">Soll ihr unsichtbares Blut</p>
+        <p align="center">Bei falschen Namen wohnen</p>
+        <p align="center">Versteckt vor jeder Glut</p>
+        <br>
+        <form>
+            <input name="key" id="key" type="text" placeholder="Schlüssel 5" required>
+            <input type="submit" value="Prüfen" onclick="auth()" style="display: none;">
+        </form>
+        <br><br>
+    </div>
+    <script>
+        function auth(){
+            var key = document.getElementById("key").value;
+            if(key == "cringe"){
+                window.location.assign("sechs.html");
+                alert("FEUER!");
+            }
+            else{
+                alert("Kalt, kälter…")
+                return;
+            }
+        }
+    </script>
+</body>
+
+</html>

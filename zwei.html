@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Schlüssel für Avery [2]</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        a { text-decoration: none; }
+    </style>
+</head>
+
+<body>
+    <div class="indexcontent">
+        <h1 align="center">2</h1>
+        <br>
+        <p>Bitte gebt ein sicheres Passwort ein.</p>
+        <p>Ein sicheres Passwort enthält mindestens zwei Großbuchstaben, drei Sonderzeichen und vier Zahlen.</p>
+        <br>
+        <form>
+            <input name="key" id="key" type="text" placeholder="Schlüssel 2" required>
+            <input type="submit" value="Prüfen" onclick="auth()" style="display: none;">
+        </form>
+        <br><br>
+    </div>
+    <script>
+        function auth(){
+            var key = document.getElementById("key").value;
+            if(key == "x4?Jp3#G!a91"){
+                window.location.assign("drei.html");
+                alert("Suuuuupi uWU");
+            }
+            else{
+                alert("Nicht sicher genug, ihr Tröten.")
+                return;
+            }
+        }
+    </script>
+</body>
+
+</html>

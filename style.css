@@ -1,0 +1,82 @@
+html * {
+    font-family: Helvetica, sans-serif;
+    align-content: center;
+  }
+
+body {
+    background-color: #112233;
+  }
+
+/* Text Properties */
+
+h1 {
+    color: white;
+    font-size: 40pt;
+  }
+
+p {
+    color: white;
+    font-size: 12pt;
+  }
+
+/* Content Divs */
+
+div.indexcontent {
+    margin: auto;
+    width: 380px;
+    line-height: 1.4;
+    
+  }
+
+div.textcontent {
+  margin: auto;
+  width: 300px;
+  line-height: 1.5;
+}
+
+div.textcontentalt {
+  margin: auto;
+  width: 350px;
+}
+
+/* Buttons */
+
+div.indexbutton {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+}
+
+div.checkbutton {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+}
+
+div.buttontext {
+  font-size: 12pt;
+}
+
+/* Forms */
+
+form {
+  margin: auto;
+  width: fit-content;
+  height: 50px;
+  font-size: 20pt;
+}
+
+/* Images */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

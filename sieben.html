@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Schlüssel für Avery [7]</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        a { text-decoration: none; }
+    </style>
+</head>
+
+<body>
+    <div class="indexcontent">
+        <h1 align="center">7</h1>
+        <br>
+        <p align="center">Selbst Caesar konnte die Sonne lesen</p>
+        <p align="center">Oder Louis XIV in Schloss Versalie</p>
+        <p align="center">Auf große Zeichen sind sie ausgewesen</p>
+        <p align="center">Bis zum Arabischen war's eine Lappalie</p>
+        <p align="center">Und von da ins ferne Ascii, so die Thesen</p>
+        <p align="center">Am Ende ein Schlüssel – reine Formalie</p>
+        <br>
+        <form>
+            <input name="key" id="key" type="text" placeholder="Schlüssel 7" required>
+            <input type="submit" value="Prüfen" onclick="auth()" style="display: none;">
+        </form>
+        <br><br>
+    </div>
+    <script>
+        function auth(){
+            var key = document.getElementById("key").value;
+            if(key == "Bolo"){
+                window.location.assign("final.html");
+                alert("Gucci!");
+            }
+            else{
+                alert("Mama Mia!")
+                return;
+            }
+        }
+    </script>
+</body>
+
+</html>
