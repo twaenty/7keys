@@ -13,14 +13,14 @@
 
 function checkAnswer1() {
     var userInput1 = document.getElementById('input1').value;
-    var correctAnswer1 = 'Mindset';  // Hier dein tatsächlicher Lösungswort
+    var correctAnswer1 = 'Mindset';
 
     if (userInput1.toLowerCase() === correctAnswer1.toLowerCase()) {
         document.getElementById('congrats-message1').style.display = 'block';
         document.getElementById('next-riddle-btn1').style.display = 'block';
         document.getElementById('answer-input').style.display = 'none';
         document.getElementById('checkButton1').style.display = 'none';
-        //document.getElementById('next-riddle-btn1').focus(); // Fokus auf den nächsten Button setzen
+        //document.getElementById('next-riddle-btn1').focus();
     } else {
         alert('Sucht nochmal, aber genauer.');
     }
@@ -34,14 +34,14 @@ function loadNextRiddle1() {
 
 function checkAnswer2() {
     var userInput2 = document.getElementById('input2').value;
-    var correctAnswer2 = 'Quarkbällchen';  // Hier dein tatsächlicher Lösungswort
+    var correctAnswer2 = 'Quarkbällchen';
 
     if (userInput2.toLowerCase() === correctAnswer2.toLowerCase()) {
         document.getElementById('congrats-message2').style.display = 'block';
         document.getElementById('next-riddle-btn2').style.display = 'block';
         document.getElementById('answer-input').style.display = 'none';
         document.getElementById('checkButton2').style.display = 'none';
-        document.getElementById('next-riddle-btn2').focus(); // Fokus auf den nächsten Button setzen
+        document.getElementById('next-riddle-btn2').focus();
     } else {
         alert('Verarschen kann ich mich selber!');
     }
@@ -55,14 +55,14 @@ function loadNextRiddle2() {
 
 function checkAnswer3() {
     var userInput3 = document.getElementById('input3').value;
-    var correctAnswer3 = 'x4?Jp3#G!a91';  // Hier dein tatsächlicher Lösungswort
+    var correctAnswer3 = 'x4?Jp3#G!a91';
 
     if (userInput3.toLowerCase() === correctAnswer3.toLowerCase()) {
         document.getElementById('congrats-message3').style.display = 'block';
         document.getElementById('next-riddle-btn3').style.display = 'block';
         document.getElementById('answer-input').style.display = 'none';
         document.getElementById('checkButton3').style.display = 'none';
-        document.getElementById('next-riddle-btn3').focus(); // Fokus auf den nächsten Button setzen
+        document.getElementById('next-riddle-btn3').focus();
     } else {
         alert('Nicht sicher genug!');
     }
@@ -76,14 +76,14 @@ function loadNextRiddle3() {
 
 function checkAnswer4() {
     var userInput4 = document.getElementById('input4').value;
-    var correctAnswer4 = 'dead';  // Hier dein tatsächlicher Lösungswort
+    var correctAnswer4 = 'dead';
 
     if (userInput4.toLowerCase() === correctAnswer4.toLowerCase()) {
         document.getElementById('congrats-message4').style.display = 'block';
         document.getElementById('next-riddle-btn4').style.display = 'block';
         document.getElementById('answer-input').style.display = 'none';
         document.getElementById('checkButton4').style.display = 'none';
-        document.getElementById('next-riddle-btn4').focus(); // Fokus auf den nächsten Button setzen
+        document.getElementById('next-riddle-btn4').focus();
     } else {
         alert('*sad trombone*');
     }
@@ -97,14 +97,14 @@ function loadNextRiddle4() {
 
 function checkAnswer5() {
     var userInput5 = document.getElementById('input5').value;
-    var correctAnswer5 = 'cringe';  // Hier dein tatsächlicher Lösungswort
+    var correctAnswer5 = 'cringe';
 
     if (userInput5.toLowerCase() === correctAnswer5.toLowerCase()) {
         document.getElementById('congrats-message5').style.display = 'block';
         document.getElementById('next-riddle-btn5').style.display = 'block';
         document.getElementById('answer-input').style.display = 'none';
         document.getElementById('checkButton5').style.display = 'none';
-        document.getElementById('next-riddle-btn5').focus(); // Fokus auf den nächsten Button setzen
+        document.getElementById('next-riddle-btn5').focus();
     } else {
         alert('Kalt, kälter...');
     }
@@ -118,14 +118,14 @@ function loadNextRiddle5() {
 
 function checkAnswer6() {
     var userInput6 = document.getElementById('input6').value;
-    var correctAnswer6 = 'Uhr';  // Hier dein tatsächlicher Lösungswort
+    var correctAnswer6 = 'Uhr';
 
     if (userInput6.toLowerCase() === correctAnswer6.toLowerCase()) {
         document.getElementById('congrats-message6').style.display = 'block';
         document.getElementById('next-riddle-btn6').style.display = 'block';
         document.getElementById('answer-input').style.display = 'none';
         document.getElementById('checkButton6').style.display = 'none';
-        document.getElementById('next-riddle-btn6').focus(); // Fokus auf den nächsten Button setzen
+        document.getElementById('next-riddle-btn6').focus();
     } else {
         alert('Mmm, Frühstück für die Sphinx!');
     }
@@ -139,14 +139,14 @@ function loadNextRiddle6() {
 
 function checkAnswer7() {
     var userInput7 = document.getElementById('input7').value;
-    var correctAnswer7 = 'Bolo';  // Hier dein tatsächlicher Lösungswort
+    var correctAnswer7 = 'Bolo';
 
     if (userInput7.toLowerCase() === correctAnswer7.toLowerCase()) {
         document.getElementById('congrats-message7').style.display = 'block';
         document.getElementById('next-riddle-btn7').style.display = 'block';
         document.getElementById('answer-input').style.display = 'none';
         document.getElementById('checkButton7').style.display = 'none';
-        document.getElementById('next-riddle-btn7').focus(); // Fokus auf den nächsten Button setzen
+        document.getElementById('next-riddle-btn7').focus();
     } else {
         alert('Mama Mia!');
     }
