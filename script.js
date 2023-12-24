@@ -1,3 +1,10 @@
+//WICHTIG:
+//IHR SOLLTET HIER NICHT SEIN!
+//TUT EUCH SELBST DEN GEFALLEN UND KEHRT UM!
+//DANKE!
+
+
+
 //pop-ups:
 //1: Such nochmal, aber genauer. / Klick Klack...
 //2: Verarschen kann ich mich selber. / Selber.
@@ -155,3 +162,15 @@ function checkAnswer7() {
 function loadNextRiddle7() {
     window.location.href = "0final.html";
 }
+
+//Mindset
+//Quarkbällchen
+//x4?Jp3#G!a91
+//dead
+//cringe
+//Uhr
+//Bolo
+
+
+
+//end of file
