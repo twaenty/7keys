@@ -25,7 +25,7 @@ function checkAnswer1() {
     if (userInput1.toLowerCase() === correctAnswer1.toLowerCase()) {
         document.getElementById('congrats-message1').style.display = 'block';
         document.getElementById('next-riddle-btn1').style.display = 'block';
-        document.getElementById('answer-input').style.display = 'none';
+        document.getElementById('input1').style.display = 'none';
         document.getElementById('checkButton1').style.display = 'none';
         //document.getElementById('next-riddle-btn1').focus();
     } else {
@@ -46,7 +46,7 @@ function checkAnswer2() {
     if (userInput2.toLowerCase() === correctAnswer2.toLowerCase()) {
         document.getElementById('congrats-message2').style.display = 'block';
         document.getElementById('next-riddle-btn2').style.display = 'block';
-        document.getElementById('answer-input').style.display = 'none';
+        document.getElementById('input2').style.display = 'none';
         document.getElementById('checkButton2').style.display = 'none';
         document.getElementById('next-riddle-btn2').focus();
     } else {
@@ -67,7 +67,7 @@ function checkAnswer3() {
     if (userInput3.toLowerCase() === correctAnswer3.toLowerCase()) {
         document.getElementById('congrats-message3').style.display = 'block';
         document.getElementById('next-riddle-btn3').style.display = 'block';
-        document.getElementById('answer-input').style.display = 'none';
+        document.getElementById('input3').style.display = 'none';
         document.getElementById('checkButton3').style.display = 'none';
         document.getElementById('next-riddle-btn3').focus();
     } else {
@@ -88,7 +88,7 @@ function checkAnswer4() {
     if (userInput4.toLowerCase() === correctAnswer4.toLowerCase()) {
         document.getElementById('congrats-message4').style.display = 'block';
         document.getElementById('next-riddle-btn4').style.display = 'block';
-        document.getElementById('answer-input').style.display = 'none';
+        document.getElementById('input4').style.display = 'none';
         document.getElementById('checkButton4').style.display = 'none';
         document.getElementById('next-riddle-btn4').focus();
     } else {
@@ -109,7 +109,7 @@ function checkAnswer5() {
     if (userInput5.toLowerCase() === correctAnswer5.toLowerCase()) {
         document.getElementById('congrats-message5').style.display = 'block';
         document.getElementById('next-riddle-btn5').style.display = 'block';
-        document.getElementById('answer-input').style.display = 'none';
+        document.getElementById('input5').style.display = 'none';
         document.getElementById('checkButton5').style.display = 'none';
         document.getElementById('next-riddle-btn5').focus();
     } else {
@@ -130,7 +130,7 @@ function checkAnswer6() {
     if (userInput6.toLowerCase() === correctAnswer6.toLowerCase()) {
         document.getElementById('congrats-message6').style.display = 'block';
         document.getElementById('next-riddle-btn6').style.display = 'block';
-        document.getElementById('answer-input').style.display = 'none';
+        document.getElementById('input6').style.display = 'none';
         document.getElementById('checkButton6').style.display = 'none';
         document.getElementById('next-riddle-btn6').focus();
     } else {
@@ -151,7 +151,7 @@ function checkAnswer7() {
     if (userInput7.toLowerCase() === correctAnswer7.toLowerCase()) {
         document.getElementById('congrats-message7').style.display = 'block';
         document.getElementById('next-riddle-btn7').style.display = 'block';
-        document.getElementById('answer-input').style.display = 'none';
+        document.getElementById('input7').style.display = 'none';
         document.getElementById('checkButton7').style.display = 'none';
         document.getElementById('next-riddle-btn7').focus();
     } else {
