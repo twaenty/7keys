@@ -74,7 +74,7 @@ function checkAnswer3() {
     var solutionDisplay3 = document.getElementById('assurance3');
     var solutionText3 = document.getElementById('solution3');
 
-    if (userInput3.toLowerCase() === correctAnswer3) {
+    if (userInput3.toLowerCase() === correctAnswer3()) {
         document.getElementById('congrats-message3').style.display = 'block';
         document.getElementById('next-riddle-btn3').style.display = 'block';
         document.getElementById('input3').style.display = 'none';
